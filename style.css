@@ -1,0 +1,88 @@
+header{
+    display: flex;
+}
+H1{
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+    font-size: 28px;
+    text-align: center;
+    font-stretch: extra-expanded;
+    color: #090147;
+    padding: 40px;
+}
+
+.logo{
+    height: 170px;
+    width: 200px;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+body{
+    background-image: url(img/bandeira.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.formulario{
+    display: flex;
+    margin-top: 25px;
+}
+
+form{
+    margin: auto;
+    width: 400px;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffffb3;
+}
+
+form div + div {
+    margin-top: 0.5em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ab2132fc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea {
+    font: sans-serif;
+    font-size: 12px;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 0.2em;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+button{
+    padding-left: 10px;
+    margin-left: 94px;
+    background-color: #090147;
+    color: whitesmoke;
+    border-radius: 0.2em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+
+
+
