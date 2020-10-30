@@ -4,10 +4,52 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bebas Neue" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <header>
+      <h1>STRATEGIC HAZARD INTERVENTION ESPIONAGE LOGISTICS DIRECTORATE - S.H.I.E.L.D</h1>
+      <div class="logo"> </div>
+    </header>
+    <div class="formulario">
+      <form>
+        <p>Agente digite aqui a mensagem que você deseja Criptografar</p>
+        <div>
+          <label for="msg">Mensagem:</label>
+          <textarea id="msgcrip"></textarea>
+        </div>
+        <div>
+          <label for="offset">Offset</label>
+          <input type="number" id="numbercrip"/>
+        </div>
+        <div class="button">
+          <button id="crip" type="submit">Criptografar</button>
+        </div>
+        <div>
+        <p>Sua mensagem criptografada é:</p>
+        <label for="msg"></label>
+        <textarea id="respcrip"></textarea>
+        </div>
+      </form>
+      <form>
+        <P>Agente digite aqui a mensagem que você deseja Descriptografar.</P>
+        <div>
+          <label for="msg">Mensagem:</label>
+          <textarea id="msgdescrip"></textarea>
+        </div>
+        <div>
+          <label for="offset">Offset</label>
+          <input type="number" id="numberdescrip"/>
+        </div>
+        <div class="button">
+          <button id="descrip" type="submit">Descriptografar</button>
+        </div>
+        <div>
+          <p>Sua mensagem descriptografada é:</p>
+          <label for="msg"></label>
+          <textarea id="respdescrip"></textarea>
+          </div>
+      </form>
     </div>
     <script src="index.js" type="module"></script>
   </body>
