@@ -25,7 +25,7 @@ const cipher = {
 //retorando a frase final letra a letra incrementada, trabalhando com os bugs de numeros negativos e numero que passam de um alfabeto.
   decode (numberdescrip, msgdescrip){
     if (!numberdescrip || !msgdescrip){
-      throw new TypeError("valor vazio", "cipher.js", 28);
+      throw new TypeError();
     } else {
       for (let i=0; i < msgdescrip.length; i++){
         let resultado1 = (msgdescrip.charCodeAt(i) - numberdescrip - codi1aLetra)
