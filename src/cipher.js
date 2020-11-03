@@ -13,12 +13,11 @@ const cipher = {
       throw new TypeError();
     } else {
       for (let i=0; i < msgcrip.length; i++){
-        let resultado1 = (msgcrip.charCodeAt(i) + numbercrip - codi1aLetra) % tamAlfabeto
-        let resultado2 = resultado1 + codi1aLetra
-        let imprimir = String.fromCharCode(resultado2)
+        let resultado1 = (msgcrip.charCodeAt(i) + numbercrip - codi1aLetra) % tamAlfabeto + codi1aLetra
+        let imprimir = String.fromCharCode(resultado1)
         fraseFinalcrip += imprimir
       }
-      return fraseFinalcrip.trim()
+      return fraseFinalcrip
     }    
   },
 //funcao de descriptografar, e buscar as informações do Index.
@@ -31,19 +30,16 @@ const cipher = {
         let resultado1 = (msgdescrip.charCodeAt(i) - numberdescrip - codi1aLetra)
         let negativo = (-resultado1 + tamAlfabeto)
         if(resultado1 <0 & negativo <=1){
-            let resultado2 = resultado1 + tamAlfabeto
-            let resultado3 = resultado2 + codi1aLetra
-            let imprimir = String.fromCharCode(resultado3)
+            let resultado2 = resultado1 + tamAlfabeto + codi1aLetra 
+            let imprimir = String.fromCharCode(resultado2)
             fraseFinaldescrip += imprimir        
         } else if (resultado1 <0 & negativo >1){
-                 let resultado2 = (resultado1 + (tamAlfabeto * Math.trunc(negativo)) + tamAlfabeto) % tamAlfabeto
-                 let resultado3 = resultado2 + codi1aLetra
-                 let imprimir = String.fromCharCode(resultado3)
+                 let resultado2 = (resultado1 + (tamAlfabeto * Math.trunc(negativo)) + tamAlfabeto) % tamAlfabeto + codi1aLetra
+                 let imprimir = String.fromCharCode(resultado2)
                  fraseFinaldescrip += imprimir
             } else {
-                  let resultado2 = resultado1 % tamAlfabeto
-                  let resultado3 = resultado2 + codi1aLetra
-                  let imprimir = String.fromCharCode(resultado3)
+                  let resultado2 = resultado1 % tamAlfabeto + codi1aLetra 
+                  let imprimir = String.fromCharCode(resultado2)
                   fraseFinaldescrip += imprimir
                 }
           }
