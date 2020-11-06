@@ -1,6 +1,6 @@
 # Cifra de César - SHIELD
 
-Projeto desenvolvido para codificação e decodificação de palavras.
+Projeto desenvolvido para codificação e decodificação de mensagens.
 
 ## Índice
 
@@ -16,17 +16,17 @@ Projeto desenvolvido para codificação e decodificação de palavras.
 
 ## 1. Introdução
 
-Desenvolvido com intuito de aprendizagem e como primeiro projeto do Bootcamp da Laboratória, tem como objetivo a codificação e decodificação de mensagem, utilizando como base para isso a Cifra de Cesar - que consiste no deslocamento do alfabeto para a codificação do mesmo. Neste projeto o deslocamento fica a cargo de quem utilizará a ferramenta, veremos mais sobre isso nos próximos tópicos. 
+Desenvolvido com intuito de aprendizagem e como primeiro projeto do Bootcamp da Laboratória, tem como objetivo a codificação e decodificação de mensagem, utilizando como base para isso a Cifra de Cesar - que consiste no deslocamento do alfabeto para a codificação dele. Neste projeto o deslocamento fica a cargo de quem utilizará a ferramenta, veremos mais sobre isso nos próximos tópicos. 
 
 
 ## 2. Aplicação
 
 Desenvolvido especialmente para os agentes e funcionários da SHIELD, o projeto visa a codificação de mensagens entre seus colaboradores.
 
-*Vocês devem estar fazendo a mesma pergunta que eu, eles são super Heróis, porque um site para codificar mensagens?*
-A SHIELD é composta por agente de campo e agente internos, e muitos deles trabalham analisando cordenadas, pessoas, dados e lugares (o que a Marvel não mostra). Com isso a troca de mensagem entre agentes (internos e de campo) precisa ser homogenea, sendo assim necessário um meio de fazer isso sem o medo da mesma ser interceptada.
+*Vocês devem estar fazendo a mesma pergunta que eu, eles são super Heróis, por que um site para codificar mensagens?*
+A SHIELD é composta por agente de campo e agente internos, e muitos deles trabalham analisando coordenadas, pessoas, dados e lugares (o que a Marvel não mostra). Com isso a troca de mensagens entre agentes (internos e de campo) precisa ser homogênea, sendo assim necessário um meio de fazer isso sem o medo da mesma ser interceptada.
 
-O projeto visa especialmente manter seguro a troca de mensagem com total descrição, onde mesmo se ela for interceptada não será possível a decodificação sem os paramêtros corretos.
+O projeto visa especialmente manter seguro a troca de mensagens com total descrição, onde mesmo se ela for interceptada não será possível a decodificação sem os parâmetros corretos.
 
 **Sempre cuidando dos interesses dos EUA e do Mundo!**
 
@@ -37,8 +37,8 @@ Vamos voltar um pouco o assunto para assim melhorarmos a sua experiência com o 
 
 ### *O que é Cifra de César?*
 
-Nomeada em homenagem ao Imperador **Julio César**, esse estilo de criptografia é o mais antigo que se tem registro, e ficou conhecido ao ser utilizado pelo imperador para criptografia de mensagens aos seus soldados.
-Ela é uma das mais simples e conhecidas tecnicas de criptografica e consiste em substituir uma letra por outra um número fixo de vezes.
+Nomeada em homenagem ao Imperador **Júlio César**, esse estilo de criptografia é o mais antigo que se tem registro, e ficou conhecido ao ser utilizado pelo imperador para criptografia de mensagens aos seus soldados.
+Ela é uma das mais simples e conhecidas técnicas de criptografia e consiste em substituir uma letra por outra um número fixo de vezes.
 
 ### *Conhecendo o site*
 
@@ -57,7 +57,7 @@ Para a descriptografia basta você utilizar o box que está escrito o **Decrypt*
 
 ![Descriptografando](src/img/site3.jpg)
 
-* Lembrando que a pessoa que lhe mandar a mensagem criptografada precisa lhe informar o deslocamento (offset) em que ela criptografou a mesma caso contrario você terá que fazer várias tentativas para acertar.
+* Lembrando que a pessoa que lhe mandar a mensagem criptografada, precisa lhe informar o deslocamento (offset) em que ela criptografou a mesma caso contrário você terá que fazer várias tentativas para acertar.
 
 ## 4. Colocando a mão na massa
 
@@ -75,10 +75,10 @@ Finalizando esse processo, você dará o comando no terminal "npm start" e em se
 
 ## 5. Processo e decisões
 
-A ideia do tema surgiu quando ao pensar em criptografia de mensagem logo lembrei do filme Missão Impossível, onde no iníco (de um dos filmes) o agente secreto Ethan Hunt recebe uma mensagem em um óculos de sol e após ouvir toda a mensagem o mesmo explode.
+A ideia do tema surgiu quando ao pensar em criptografia de mensagem logo lembrei do filme Missão Impossível, onde no início (de um dos filmes) o agente secreto Ethan Hunt recebe uma mensagem em um óculos de sol e após ouvir toda a mensagem o mesmo explode.
 
-Então fui pensando em várias organizações no ramo sinematográfico que poderia utilizar a ferramenta chegando então na SHIELD.
+Então fui pensando em várias organizações no ramo cinematográfico que poderia utilizar a ferramenta chegando então na SHIELD.
 
-Até então eu estava apenas com a lógica desenvolvida e a partir disso comecei a desenvolver o HTML e o CSS, onde quis trazer o lado patriota dos norte-americanos, trazendo a bandeira norte-americada de fundo da página, juntando com todos os textos estarem nas cores azul e vermelho no mesmo tom da bandeira.
+Até então eu estava apenas com a lógica desenvolvida e a partir disso comecei a desenvolver o HTML e o CSS, onde quis trazer o lado patriota dos norte-americanos, trazendo a bandeira norte-americana de fundo da página, juntando com todos os textos estarem nas cores azul e vermelho no mesmo tom da bandeira.
 
 Além disso quis trazer um site mais limpo e objetivo, para que a experiência do usuário seja a melhor possível.
